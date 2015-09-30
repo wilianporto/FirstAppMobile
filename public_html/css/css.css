@@ -1,0 +1,111 @@
+
+
+html {
+	margin-top: 0px !important;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif !important;
+	background-color: #33A6D5;
+}
+
+.blog-inde-wrapper {
+	background-color: #3DC0F1;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #e74c3c;
+}
+
+ul {
+	margin-left: 0px !important;
+}
+
+.mdi-device-access-time {
+	color: #34495e;
+	padding-right: 5px;
+}
+
+.mdi-action-face-unlock {
+	color: #34495e;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mdi-action-loyalty {
+	color: #34495e;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mdi-communication-forum {
+	color: #34495e;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mdi-content-flag {
+	color: #34495e;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mdi-action-favorite {
+	color: #e74c3c;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.customize-support {
+	background-color: #FFFFFF !important;
+}
+
+
+/*HEADER*/
+
+#masthead {
+	background: #2BA3D4 url('http://fedora.or.id/bg_teaser.svg') no-repeat center center;
+	height: 600px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 320px;
+	height: 100px;
+}
+
+.indonesia{
+	font-family: 'Bree Serif', serif !important;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 6em;
+	font-weight: bolder;
+}
+
+em#fedora-motto {
+	color: #FFFFFF;
+}
+
+.header-wrapper {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.header-wrapper a:hover {
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+

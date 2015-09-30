@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
     <head>
         <title>Desenvolvimento de Aplicativos</title>
@@ -9,84 +9,109 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-        <script src="main.js"></script>
-        <script>
-            $(".button-collapse").sideNav();
-        </script>
+        <script>(function ($) {
+                $(function () {
+
+                    // The rest above this is hidden
+
+                    $('.slider').slider({full_width: false});
+
+                }); // end of document ready
+            })(jQuery);
+                </script>
+        <link rel='stylesheet' id='custom-style-css'  href='css/css.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='googleFonts-css'  href='http://fonts.googleapis.com/css?family=Montserrat&#038;ver=4.3.1' type='text/css' media='all' />
+        <link rel='stylesheet' id='googleFonts2-css'  href='http://fonts.googleapis.com/css?family=Bree+Serif&#038;ver=4.3.1' type='text/css' media='all' />
 
     </head>
     <body>
-        <!--        <div class="light-blue lighten-1">
-                    <div class="nav-wrapper container">
-                        <a id="logo-container" href="#" class="brand-logo">Empresa.com</a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="#">Teste</a></li>
-                        </ul>
-                        <ul id="nav-mobile" class="side-nav">
-                            <li><a href="#">Teste</a></li>
-                            <li><a href="#">Teste</a></li>
-                            <li><a href="#">Teste</a></li>
-                            <li><a href="#">Teste</a></li>
-                            <li><a href="#">Teste</a></li>
-                        </ul>
-                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-                    </div>
-                </div>-->
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img width="85%" height="20%" src="http://unidavi.edu.br/wp-content/uploads/2015/07/logo_nova_site_48.png"/> </a>
-<!--                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Mais</i></a>-->
+                <a href="index.html" class="brand-logo"><img width="85%" height="20%" src="http://unidavi.edu.br/wp-content/uploads/2015/07/logo_nova_site_48.png"/> </a>
+                <!--                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Mais</i></a>-->
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li><a  class="waves-effect waves-effect btn-large" href="index.html">Início</a></li>
+                    <li><a  href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
-                 <ul id="mobile-demo" class="side-nav">
-            <li><a href="#!">First Sidebar Link</a></li>
-            <li><a href="#!">Second Sidebar Link</a></li>
-            <li class="no-padding">
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="#!">First</a></li>
-                                <li><a href="#!">Second</a></li>
-                                <li><a href="#!">Third</a></li>
-                                <li><a href="#!">Fourth</a></li>
-                            </ul>
-                        </div>
+                <ul id="mobile-demo" class="side-nav">
+                    <li><a href="#!">First Sidebar Link</a></li>
+                    <li><a href="#!">Second Sidebar Link</a></li>
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
+                            <li>
+                                <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#!">First</a></li>
+                                        <li><a href="#!">Second</a></li>
+                                        <li><a href="#!">Third</a></li>
+                                        <li><a href="#!">Fourth</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
-            </li>
-        </ul>
             </div>
         </nav>
+        <div class="slider ">
+            <ul class="slides">
+                <li>
+                    <img src="imagens/unidavi.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h1>Unidavi 49 anos!</h1>
+                        <h5 class="light grey-text text-lighten-3">Realizando seus sonhos</h5>
+                       
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/unidavi02.jpg">
+                    <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Desfile Cívico</h3>
+                        <h5 class="light grey-text text-lighten-3">A Unidavi esteve presente</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/unidavi03.jpg">
+                    <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Melhores Cursos</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/unidavi04.jpg">
+                    <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>Melhores Professores!</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="page" class="hfeed site">
+            <a class="skip-link screen-reader-text" href="#content"></a>
 
-<!--        <ul id="slide-out" class="side-nav">
-            <li><a href="#!">First Sidebar Link</a></li>
-            <li><a href="#!">Second Sidebar Link</a></li>
-            <li class="no-padding">
-                <ul class="collapsible collapsible-accordion">
-                    <li>
-                        <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
-                        <div class="collapsible-body">
-                            <ul>
-                                <li><a href="#!">First</a></li>
-                                <li><a href="#!">Second</a></li>
-                                <li><a href="#!">Third</a></li>
-                                <li><a href="#!">Fourth</a></li>
-                            </ul>
+            <div id="masthead" class="site-header" role="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="header-wrapper">
+                                <div class=" wp-content/themes/fedora-id/site-branding">
+                                    <div class="">
+                                        <img src="http://unidavi.edu.br/wp-content/uploads/2015/07/logo_nova_site_48.png" />
+                                    </div>
+                                    <div class="indonesia">Unidavi</div>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                </ul>
-            </li>
-        </ul>-->
-        
-<!--        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu">Mnu</i></a>-->
-
-
+                    </div>
+                </div> 
+            </div>
+        </div>
 
     </body>
 </html>
+
